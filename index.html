@@ -1,262 +1,576 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Utsav Murarka</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Simple line icons-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-        
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
-        <nav id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="#page-top">Utsav Murarka</a></li>
-                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
-                <li class="sidebar-nav-item"><a href="#about">About</a></li>
-                <li class="sidebar-nav-item"><a href="#work">Work</a></li>
-                <li class="sidebar-nav-item"><a href="#research">Research</a></li>
-                <li class="sidebar-nav-item"><a href="#projects">Projects</a></li>
-                <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <!-- Header-->
-        <header class="masthead d-flex align-items-center">
-            <div class="container px-4 px-lg-5 text-center">
-                <h1 class="mb-1" style="color: whitesmoke">Utsav Murarka</h1>
-                <h3 class="mb-5" style="color: lightgrey">Software Engineer | BITS Pilani Goa '22</h3>
-                <div class="social-menu">
-                    <ul style="padding-left: 0">
-                        <li><a href="https://www.linkedin.com/in/utsavmurarka/" target="_blank" data-tooltip="LinkedIn" class="social-tooltip" target="blank"><i class="fab fa-linkedin"></i></a></li>
-                        <li><a href="https://github.com/utsavmurarka" target="_blank" data-tooltip="GitHub" class="social-tooltip" target="blank"><i class="fab fa-github"></i></i></a></li>
-                        <li><a href="mailto:utsavm1804@gmail.com" target="_blank" data-tooltip="E-mail" class="social-tooltip" target="blank"><i class="fa fa-envelope"></i></a></li>
-                        <li><a href="./assets/Utsav_Resume.pdf" target="_blank" data-tooltip="Resume" class="social-tooltip" target="blank"><i class="fa fa-file"></i></a></li>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description"
+        content="Utsav Murarka — Software Engineer at ServiceNow, BITS Pilani Goa alumnus. Published researcher in astrophysics and machine learning." />
+    <meta name="author" content="Utsav Murarka" />
+    <meta property="og:title" content="Utsav Murarka — Software Engineer" />
+    <meta property="og:description"
+        content="Software Engineer at ServiceNow. Published researcher. CS + Physics from BITS Pilani Goa '22." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://utsavmurarka.github.io" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <title>Utsav Murarka — Software Engineer</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons -->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts: Inter + DM Serif Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS (no bundled Bootstrap — grid handled by custom styles) -->
+    <link href="css/custom.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav id="top-nav" class="top-nav" aria-label="Main navigation">
+        <div class="nav-inner">
+            <a href="#page-top" class="nav-brand">UM</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#research">Research</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="./assets/Utsav_Resume.pdf" target="_blank" class="nav-resume-btn">Resume ↗</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero" id="page-top">
+        <div class="hero-content">
+            <h1 class="hero-name">Utsav Murarka</h1>
+            <p class="hero-subtitle">Software Engineer</p>
+            <div class="hero-links">
+                <a href="https://www.linkedin.com/in/utsavmurarka/" target="_blank" class="hero-link">
+                    <i class="fab fa-linkedin"></i> <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/utsavmurarka" target="_blank" class="hero-link">
+                    <i class="fab fa-github"></i> <span>GitHub</span>
+                </a>
+                <a href="mailto:utsavm1804@gmail.com" class="hero-link">
+                    <i class="fa fa-envelope"></i> <span>Email</span>
+                </a>
+                <a href="./assets/Utsav_Resume.pdf" target="_blank" class="hero-link">
+                    <i class="fa fa-file-lines"></i> <span>Resume</span>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator" aria-hidden="true">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- About -->
+        <section class="section section-light" id="about">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>About</h2>
+                </div>
+                <div class="about-content reveal">
+                    <p class="about-text">
+                        I am a Software Engineer with over
+                        <script>document.write(new Date().getFullYear() - 2022)</script> years of experience, currently
+                        working at <a class="text-link" target="_blank"
+                            href="https://www.servicenow.com/">ServiceNow</a>, where I started out as a Summer Intern in
+                        2021, and later returned as a full-time employee.
+                        Prior to joining ServiceNow, I also worked as an intern at <a class="text-link" target="_blank"
+                            href="https://www.aboutamazon.com/">Amazon</a> in the Amazon Pay team.
+                    </p>
+                    <p class="about-text">
+                        I graduated with a Bachelors in Computer Science and a Masters in Physics from <a
+                            class="text-link" target="_blank" href="https://www.bits-pilani.ac.in/goa/">BITS Pilani, Goa
+                            Campus</a> in 2022.
+                        During my time at BITS, I was engaged in several Research Projects, one of which led to a <a
+                            class="text-link" target="_blank"
+                            href="https://iopscience.iop.org/article/10.1088/1475-7516/2022/01/045">publication</a> in
+                        the Journal of Cosmology And Astroparticle Physics (<a class="text-link" target="_blank"
+                            href="https://iopscience.iop.org/journal/1475-7516">JCAP</a>).
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="section section-dark" id="experience">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Experience</h2>
+                </div>
+                <div class="timeline reveal-stagger">
+
+                    <!-- ServiceNow Full-time Career Progression -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <!-- Company Header with Prominent Logo -->
+                            <div class="company-header">
+                                <a href="https://www.servicenow.com/" target="_blank" class="company-logo-badge"
+                                    title="ServiceNow">
+                                    <img src="./assets/img/sn_logo.jpg" alt="ServiceNow logo" />
+                                </a>
+                                <div class="company-info">
+                                    <div class="company-title-row">
+                                        <h3 class="timeline-company"><a href="https://www.servicenow.com/"
+                                                target="_blank" class="company-link">ServiceNow</a></h3>
+                                    </div>
+                                    <div class="company-meta">
+                                        <span class="company-tenure">Jul 2022 — Present · <span
+                                                id="servicenow-total-duration">4+ yrs</span></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Career Progression Steps -->
+                            <div class="roles-progression">
+
+                                <!-- Role 1: Senior Software Engineer -->
+                                <div class="role-step">
+                                    <div class="role-marker"></div>
+                                    <div class="role-header">
+                                        <div class="role-title-row">
+                                            <h4 class="role-title">Senior Software Engineer</h4>
+                                        </div>
+                                        <div class="role-meta">
+                                            <span class="role-date">Mar 2026 — Present · <span
+                                                    id="current-role-duration">8 mos</span></span>
+                                        </div>
+                                    </div>
+                                    <ul class="role-bullets">
+                                        <li><strong>AI Response Assist:</strong> Leading engineering for a GenAI feature
+                                            that drafts answers to enterprise risk and compliance assessments by
+                                            grounding against past responses and uploaded evidence (<a class="text-link video-trigger" target="_blank"
+                                                rel="noopener noreferrer" href="https://www.youtube.com/watch?v=lMRL4-gNCYQ"
+                                                data-video-id="lMRL4-gNCYQ" data-video-title="AI Response Assist — Feature Demo"><i class="fa-solid fa-circle-play" style="font-size: 0.85em; margin-right: 2px;"></i>demo</a>).</li>
+                                        <li><strong>RAG &amp; Async Architecture:</strong> Architected a multilingual
+                                            hybrid RAG pipeline with document-grounded answering across PDFs and
+                                            spreadsheets, backed by a fault-tolerant asynchronous transactions
+                                            management framework.</li>
+                                        <li><strong>LLM Evaluation Suite:</strong> Developed an LLM-as-a-judge evaluation
+                                            suite for metrics including correctness, completeness, and faithfulness,
+                                            and tuned prompts against golden benchmark datasets across multiple LLM providers.</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Role 2: Software Engineer -->
+                                <div class="role-step">
+                                    <div class="role-marker"></div>
+                                    <div class="role-header">
+                                        <div class="role-title-row">
+                                            <h4 class="role-title">Software Engineer</h4>
+                                        </div>
+                                        <div class="role-meta">
+                                            <span class="role-date">Mar 2024 — Feb 2026 · 2 yrs</span>
+                                        </div>
+                                    </div>
+                                    <ul class="role-bullets">
+                                        <li><strong>Real-Time Collaboration:</strong> Delivered concurrent authoring for
+                                            the <a class="text-link" target="_blank" rel="noopener noreferrer"
+                                                href="https://store.servicenow.com/store/app/13ed4e021bc3261061c4eb18624bcb5b">Smart
+                                                Assessment Collaboration</a> capability on the <a class="text-link" target="_blank" rel="noopener noreferrer"
+                                                href="https://www.servicenow.com/docs/bundle/xanadu-governance-risk-compliance/page/product/assessment-engine/reference/smart-asmnt-engine-landing-page.html">Smart
+                                                Assessment Engine</a>, including live synchronization and presence
+                                            indicators.</li>
+                                        <li><strong>Condition &amp; Rule Engines:</strong> Built the no-code Condition
+                                            Builder and <a class="text-link" target="_blank" rel="noopener noreferrer"
+                                                href="https://store.servicenow.com/store/app/89e9a3a21b246a50a85b16db234bcb46">Post-Assessment Actions</a> rule engine, powering conditional
+                                            visibility, preferred answers, and automated workflow triggers.</li>
+                                        <li><strong>Platform Integration:</strong> Collaborated across product, UX, and
+                                            technical writing teams to define the SAE roadmap and onboard consuming
+                                            ServiceNow applications like Field Service Management (<a class="text-link video-trigger" target="_blank"
+                                                rel="noopener noreferrer" href="https://www.youtube.com/watch?v=NTNntVRpfVE"
+                                                data-video-id="NTNntVRpfVE" data-video-title="Field Service Management — Integration Demo"><i class="fa-solid fa-circle-play" style="font-size: 0.85em; margin-right: 2px;"></i>demo</a>).</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Role 3: Associate Software Engineer -->
+                                <div class="role-step">
+                                    <div class="role-marker"></div>
+                                    <div class="role-header">
+                                        <div class="role-title-row">
+                                            <h4 class="role-title">Associate Software Engineer</h4>
+                                        </div>
+                                        <div class="role-meta">
+                                            <span class="role-date">Jul 2022 — Feb 2024 · 1 yr 8 mos</span>
+                                        </div>
+                                    </div>
+                                    <ul class="role-bullets">
+                                        <li><strong>Autosave Infrastructure:</strong> Built full-stack autosave
+                                            functionality across UI, REST APIs, and WebSockets for Risk Assessments.
+                                        </li>
+                                        <li><strong>Internal Engineering Tools:</strong> Developed internal tools for
+                                            user-role hierarchy validation and licensing simulation.</li>
+                                        <li><strong>Accessibility:</strong> Resolved accessibility issues to ensure WCAG
+                                            compliance for screen readers, keyboard navigation, and high contrast modes.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Amazon -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="company-header">
+                                <a href="https://www.aboutamazon.com/" target="_blank" class="company-logo-badge"
+                                    title="Amazon">
+                                    <img src="./assets/img/logo-amazon-square (1).jpg" alt="Amazon logo" />
+                                </a>
+                                <div class="company-info">
+                                    <div class="company-title-row">
+                                        <h3 class="timeline-company"><a href="https://www.aboutamazon.com/"
+                                                target="_blank" class="company-link">Amazon</a></h3>
+                                    </div>
+                                    <h4 class="timeline-role">Software Engineer Intern</h4>
+                                    <span class="timeline-date">Jan 2022 — Jun 2022 · 6 mos</span>
+                                </div>
+                            </div>
+                            <ul class="role-bullets" style="margin-top: 1rem;">
+                                <li><strong>Amazon Pay GraphQL:</strong> Productionized a proof-of-concept of the
+                                    selection safe-listing feature in Amazon's internal GraphQL service.</li>
+                                <li><strong>Low-Level Design &amp; Implementation:</strong> Authored the low-level
+                                    design (LLD) and implemented it in Java with shared utilities reused across the
+                                    persisted-queries module.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- ServiceNow Intern (Chronological) -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="company-header">
+                                <a href="https://www.servicenow.com/" target="_blank" class="company-logo-badge"
+                                    title="ServiceNow">
+                                    <img src="./assets/img/sn_logo.jpg" alt="ServiceNow logo" />
+                                </a>
+                                <div class="company-info">
+                                    <div class="company-title-row">
+                                        <h3 class="timeline-company"><a href="https://www.servicenow.com/"
+                                                target="_blank" class="company-link">ServiceNow</a></h3>
+                                    </div>
+                                    <h4 class="timeline-role">Software Engineer Intern</h4>
+                                    <span class="timeline-date">May 2021 — Jul 2021 · 3 mos</span>
+                                </div>
+                            </div>
+                            <ul class="role-bullets" style="margin-top: 1rem;">
+                                <li><strong>Entity Relationship Visualizer:</strong> Designed and developed a
+                                    proof-of-concept to visualize and manage hierarchical entity relations in a
+                                    database.</li>
+                                <li><strong>Interactive D3.js UI:</strong> Created a drag-and-drop UI using D3.js and
+                                    REST APIs to fetch hierarchical data via recursive queries.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- BITS Pilani -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="company-header">
+                                <a href="https://www.bits-pilani.ac.in/goa/" target="_blank" class="company-logo-badge"
+                                    title="BITS Pilani">
+                                    <img src="./assets/img/images.jfif" alt="BITS Pilani logo" />
+                                </a>
+                                <div class="company-info">
+                                    <div class="company-title-row">
+                                        <h3 class="timeline-company"><a href="https://www.bits-pilani.ac.in/goa/"
+                                                target="_blank" class="company-link">BITS Pilani — Goa Campus</a></h3>
+                                    </div>
+                                    <h4 class="timeline-role">Research &amp; Teaching Assistant</h4>
+                                    <span class="timeline-date">Aug 2017 — Jun 2022</span>
+                                </div>
+                            </div>
+                            <ul class="role-bullets" style="margin-top: 1rem;">
+                                <li><strong>Astrophysics Research:</strong> Pursued research under <a class="text-link"
+                                        target="_blank" href="https://www.bits-pilani.ac.in/goa/kinjalb/Profile">Dr.
+                                        Kinjal Banerjee</a>, leading to a first-author publication in the Journal of
+                                    Cosmology and Astroparticle Physics (<a class="text-link" target="_blank"
+                                        href="https://iopscience.iop.org/article/10.1088/1475-7516/2022/01/045">JCAP</a>).
+                                </li>
+                                <li><strong>Master's Thesis:</strong> Completed thesis on time series modelling of the
+                                    Indian stock market using machine learning under <a class="text-link"
+                                        target="_blank" href="https://www.bits-pilani.ac.in/goa/csharma/profile">Dr.
+                                        Chandradew Sharma</a>.</li>
+                                <li><strong>Teaching Assistant:</strong> TA for the Computational Physics course by <a
+                                        class="text-link" target="_blank"
+                                        href="https://www.bits-pilani.ac.in/goa/gdar/profile">Dr. Gaurav Dar</a>.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Infibeam Avenues -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="company-header">
+                                <a href="https://www.ia.ooo/" target="_blank" class="company-logo-badge"
+                                    title="Infibeam Avenues">
+                                    <img src="./assets/img/infibeam-avenues.png" alt="Infibeam Avenues logo" />
+                                </a>
+                                <div class="company-info">
+                                    <div class="company-title-row">
+                                        <h3 class="timeline-company"><a href="https://www.ia.ooo/" target="_blank"
+                                                class="company-link">Infibeam Avenues</a></h3>
+                                    </div>
+                                    <h4 class="timeline-role">Summer Intern</h4>
+                                    <span class="timeline-date">May 2019 — Jul 2019 · 3 mos</span>
+                                </div>
+                            </div>
+                            <ul class="role-bullets" style="margin-top: 1rem;">
+                                <li><strong>AI Interview Bot:</strong> Implemented an automated conversational AI
+                                    chatbot application using Django, PostgreSQL, and Dialogflow API to conduct
+                                    technical interviews.</li>
+                                <li><strong>Database &amp; Webhooks:</strong> Designed schema in PostgreSQL and
+                                    integrated real-time webhook endpoints.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Research -->
+        <section class="section section-alt" id="research">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Research</h2>
+                </div>
+
+                <div class="research-cards reveal-stagger">
+                    <!-- Publication 1 -->
+                    <div class="research-card reveal">
+                        <a href="https://iopscience.iop.org/article/10.1088/1475-7516/2022/01/045" target="_blank">
+                            <img class="research-card-img" src="./assets/img/journal_cover.jpg"
+                                alt="JCAP Journal Cover" />
+                        </a>
+                        <div class="research-card-body">
+                            <h3 class="research-card-title">
+                                <a href="https://iopscience.iop.org/article/10.1088/1475-7516/2022/01/045"
+                                    target="_blank">The neutron star outer crust equation of state: A machine learning
+                                    approach</a>
+                            </h3>
+                            <p class="research-card-authors">Utsav Murarka, Kinjal Banerjee, Tuhin Malik, Constança
+                                Providência</p>
+                            <p class="research-card-venue">The Journal of Cosmology and Astroparticle Physics · January
+                                2022</p>
+                            <a class="research-card-link"
+                                href="https://iopscience.iop.org/article/10.1088/1475-7516/2022/01/045"
+                                target="_blank">View Paper <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Publication 2 -->
+                    <div class="research-card reveal">
+                        <a href="https://www.researchgate.net/publication/372941717_Time_Series_Modelling_of_the_Indian_Stock_Market_A_Machine_Learning_approach"
+                            target="_blank">
+                            <img class="research-card-img" src="./assets/img/images.jfif" alt="BITS Pilani" />
+                        </a>
+                        <div class="research-card-body">
+                            <h3 class="research-card-title">
+                                <a href="https://www.researchgate.net/publication/372941717_Time_Series_Modelling_of_the_Indian_Stock_Market_A_Machine_Learning_approach"
+                                    target="_blank">Time series modelling of the Indian stock market: A machine learning
+                                    approach</a>
+                            </h3>
+                            <p class="research-card-authors">Utsav Murarka — Under supervision of Dr. Chandradew Sharma
+                            </p>
+                            <p class="research-card-venue">Master's Thesis · BITS Pilani · December 2021</p>
+                            <a class="research-card-link"
+                                href="https://www.researchgate.net/publication/372941717_Time_Series_Modelling_of_the_Indian_Stock_Market_A_Machine_Learning_approach"
+                                target="_blank">View Paper <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="research-external-links reveal">
+                    <a href="https://scholar.google.com/citations?user=H7lzGPkAAAAJ&hl=en" target="_blank"
+                        class="btn-outline">
+                        <i class="fas fa-graduation-cap"></i> Google Scholar
+                    </a>
+                    <a href="https://www.researchgate.net/profile/Utsav-Murarka" target="_blank" class="btn-outline">
+                        <i class="fab fa-researchgate"></i> ResearchGate
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section section-light" id="projects">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Projects</h2>
+                </div>
+
+                <div class="project-grid reveal-stagger">
+                    <!-- 2048 -->
+                    <div class="project-card reveal">
+                        <a href="https://github.com/UtsavMurarka/2048" target="_blank" class="project-card-img-wrapper">
+                            <img class="project-card-img" src="./assets/img/project-2048.jfif" alt="2048 Game Clone" />
+                        </a>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title"><a href="https://github.com/UtsavMurarka/2048"
+                                    target="_blank">2048 Game Clone</a></h3>
+                            <p class="project-card-desc">Cloned the 2048 game using Python. Created a GUI using Tkinter.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Tkinter</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MXene -->
+                    <div class="project-card reveal">
+                        <a href="https://github.com/UtsavMurarka/MXene-machine-learning" target="_blank"
+                            class="project-card-img-wrapper">
+                            <img class="project-card-img" src="./assets/img/project-mxene.jpg"
+                                alt="ML based MXene Classification" />
+                        </a>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title"><a
+                                    href="https://github.com/UtsavMurarka/MXene-machine-learning" target="_blank">ML
+                                    based MXene Classification</a></h3>
+                            <p class="project-card-desc">Trained ML model using Scikit-learn and Tensorflow to classify
+                                MXenes into metals and non-metals.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Scikit-learn</span>
+                                <span class="tech-tag">TensorFlow</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Nuclear -->
+                    <div class="project-card reveal">
+                        <a href="https://arxiv.org/abs/2004.14196v1" target="_blank" class="project-card-img-wrapper">
+                            <img class="project-card-img" src="./assets/img/project-nuclear.PNG"
+                                alt="Nuclear Binding Energy Prediction" />
+                        </a>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title"><a href="https://arxiv.org/abs/2004.14196v1"
+                                    target="_blank">Nuclear Binding Energy Prediction</a></h3>
+                            <p class="project-card-desc">Created ML based models trained on Experimental data to predict
+                                Nuclear Binding Energies.</p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Machine Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Coursework -->
+                <div class="coursework-section reveal">
+                    <h3 class="coursework-header">Other Coursework Projects</h3>
+                    <ul class="coursework-list">
+                        <li class="coursework-item">
+                            <strong>Compilers:</strong> Created an <a class="text-link"
+                                href="https://github.com/UtsavMurarka/modified-2048-game-interpreter"
+                                target="_blank">Interpreter</a> for a modified 2048 game using Lex &amp; Yacc.
+                        </li>
+                        <li class="coursework-item">
+                            <strong>Artificial Intelligence:</strong> Implemented a <a class="text-link"
+                                href="https://github.com/UtsavMurarka/15-puzzle-solver" target="_blank">15-puzzle
+                                solver</a> using A-star search algorithm in Python.
+                        </li>
+                        <li class="coursework-item">
+                            <strong>Neuroscience:</strong> Simulated the responses of a neuron to a steady stimulus
+                            based on the <a class="text-link" href="https://github.com/UtsavMurarka/neuron-simulation"
+                                target="_blank">Hodgkin-Huxley model in MATLAB.</a>
+                        </li>
+                        <li class="coursework-item">
+                            <strong>Physics &amp; ML:</strong> Compared the performance of various ML models with highly
+                            imbalanced data for <a class="text-link"
+                                href="https://github.com/UtsavMurarka/Pulsar-identification" target="_blank">identifying
+                                pulsar signals.</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-        </header>
-        <!-- About-->
-        <section class="content-section bg-light" id="about">
-            <div class="container px-4 px-lg-5 text-center">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="mb-3">About</h2>
-                        <hr>
-                        <p class="mb-4 lead">
-                            I am a Software Engineer with over <script>document.write(new Date().getFullYear() - 2022)</script> years of experience, currently working at <a target="_blank" href="https://www.servicenow.com/">ServiceNow</a>, where I started out as a Summer Intern in 2021, and later returned as a full-time employee.
-                            Prior to joining ServiceNow, I also worked as an intern at <a target="_blank" href="https://www.aboutamazon.com/">Amazon</a> in the Amazon Pay team.
-                            <br/><br/>
-                            I graduated with a Bachelors in Computer Science and a Masters in Physics from <a target="_blank" href="https://www.bits-pilani.ac.in/goa/">BITS Pilani, Goa Campus</a> in 2022. 
-                            During my time at BITS, I was engaged in several Research Projects, one of which led to a <a target="_blank" href="https://iopscience.iop.org/article/10.1088/1475-7516/2022/01/045">publication</a> in the Journal of Cosmology And Astroparticle Physics (<a target="_blank" href="https://iopscience.iop.org/journal/1475-7516">JCAP</a>).
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Work-->
-        <section class="page-section work-section text-center" id="work">
-            <h1 style="color: whitesmoke; font-size: 4rem;">Work</h1>
         </section>
 
-        <section class="page-section bg-dark">
-            <div class="container px-5 px-lg-5 justify-content-center align-items-center">
-                <div class="row gx-4 gx-lg-5 justify-content-center ">
-                    <div class="col-lg-4 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2 zoom">
-                                <a href="https://www.servicenow.com/" target="_blank">
-                                    <img class="logo" src="./assets/img/sn_logo.jpg" />
-                                </a>
-                            </div>
-                            <h3 class="h4 mt-4 text-white">ServiceNow</h3>
-                            <p class="text-muted mb-0">July '22 - Present</p>
-                            <p class="desc mt-2 text-white">Working as a software engineer for the <a class="alink" target="_blank" href="https://www.servicenow.com/docs/bundle/xanadu-governance-risk-compliance/page/product/assessment-engine/reference/smart-asmnt-engine-landing-page.html">Smart Assessment Engine</a> team. Delivered key features for the General Availability release of SAE. Previously contributed to ServiceNow's Risk Management product</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2 zoom">
-                                <a href="https://www.aboutamazon.com/" target="_blank">
-                                    <img class="logo" src="./assets/img/logo-amazon-square (1).jpg" />
-                                </a>
-                            </div>
-                            <h3 class="h4 mt-4 text-white">Amazon</h3>
-                            <p class="text-muted mb-0">Jan '22 - June '22</p>
-                            <p class="desc mt-2 text-white">Worked as an intern in the Amazon Pay team, on Amazon's internal GraphQL wrapper. Productionized a POC for the selection safelisting feature in Amazon GraphQL.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2 zoom">
-                                <a href="https://www.servicenow.com/" target="_blank">
-                                    <img class="logo" src="./assets/img/sn_logo.jpg" />
-                                </a>
-                            </div>
-                            <h3 class="h4 mt-4 text-white">ServiceNow</h3>
-                            <p class="text-muted mb-0">May '21 - July '21</p>
-                            <p class="desc mt-2 text-white">As a summer intern, I worked on a feature to visualize and edit hierarchical entity relations in a DB. Created a drag-drop based UI, and integrated it with the DB using REST APIs.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2 zoom">
-                                <a href="https://www.bits-pilani.ac.in/goa/" target="_blank">
-                                    <img class="logo" src="./assets/img/images.jfif"/>
-                                </a>
-                            </div>
-                            <h3 class="h4 mt-4 text-white">BITS Pilani - Goa Campus</h3>
-                            <p class="text-muted mb-0">Aug '17 - June '22</p>
-                            <p class="desc mt-2 text-white">I pursued research under <a class="alink" target="_blank" href="https://www.bits-pilani.ac.in/goa/kinjalb/Profile">Dr. Kinjal Banerjee</a>, which led to a publication in JCAP. <br>I worked as a TA for the Computational Physics course by <a class="alink" target="_blank" href="https://www.bits-pilani.ac.in/goa/gdar/profile">Dr. Gaurav Dar.</a> I also completed my Thesis under supervision of <a class="alink" target="_blank" href="https://www.bits-pilani.ac.in/goa/csharma/profile">Dr. Chandradew Sharma</a>.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2 zoom">
-                                <a href="https://www.ia.ooo/" target="_blank">
-                                    <img class="logo" src="./assets/img/infibeam-avenues.png"/>
-                                </a>
-                            </div>
-                            <h3 class="h4 mt-4 text-white">Infibeam Avenues</h3>
-                            <p class="text-muted mb-0">May '19 - July '19</p>
-                            <p class="desc mt-2 text-white">I built a Django and Dialogflow based AI chatbot to take interviews. Designed and implemented a database in PostgreSQL and integrated it with the chatbot using webhooks.</p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
+    </main>
 
-        <!-- Research-->
-        <section class="page-section research-section text-center" id="research">
-            <h1 style="color: whitesmoke; font-size: 4rem;">Research</h1>
-            <div>
-                <a type="button" class="btn btn-outline-light research-btn" href="https://scholar.google.com/citations?user=H7lzGPkAAAAJ&hl=en" target="_blank">Google Scholar</a>
-                <a type="button" class="btn btn-outline-light research-btn" href="https://www.researchgate.net/profile/Utsav-Murarka" target="_blank">ResearchGate</a>
-            </div>
-        </section>
-        
-        <section class="page-section bg-light">
-            <div class="container px-5 px-lg-5 justify-content-center align-items-center">
-                <div class="row gx-4 gx-lg-5 justify-content-center ">
-                    <div class="col-lg-6 col-md-8 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2 zoom">
-                                <a href="https://iopscience.iop.org/article/10.1088/1475-7516/2022/01/045" target="_blank">
-                                    <img class="logo-light" src="./assets/img/journal_cover.jpg" />
-                                </a>
-                            </div>
-                            <h3 class="h4 mt-4 text-black">The neutron star outer crust equation of state: A machine learning approach</h3>
-                            <p class="text-muted mb-0">Utsav Murarka, Kinjal Banerjee, Tuhin Malik, Constança Providência</p>
-                            <p class="desc mt-2 text-black">The Journal of Cosmology and Astroparticle Physics, January 2022</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2 zoom">
-                                <a href="https://www.researchgate.net/publication/372941717_Time_Series_Modelling_of_the_Indian_Stock_Market_A_Machine_Learning_approach" target="_blank">
-                                    <img class="logo-light" src="./assets/img/images.jfif" />
-                                </a>
-                            </div>
-                            <h3 class="h4 mt-4 text-black">Time series modelling of the Indian stock market: A machine learning approach</h3>
-                            <p class="text-muted mb-0">Utsav Murarka - Under supervision of Dr. Chandradew Sharma</p>
-                            <p class="desc mt-2 text-black">Master's Thesis - BITS Pilani, December 2021</p>
-                        </div>
-                    </div>
+    <!-- Footer / Contact -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content reveal">
+                <h2>Get in Touch</h2>
+                <p class="footer-subtitle">Open to interesting conversations — feel free to reach out.</p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/utsavmurarka/" target="_blank" class="footer-link">
+                        <i class="fab fa-linkedin"></i> /utsavmurarka
+                    </a>
+                    <a href="mailto:utsavm1804@gmail.com" class="footer-link">
+                        <i class="fa fa-envelope"></i> utsavm1804@gmail.com
+                    </a>
+                    <a href="mailto:f20170854g@alumni.bits-pilani.ac.in" class="footer-link">
+                        <i class="fa fa-envelope"></i> f20170854g@alumni.bits-pilani.ac.in
+                    </a>
                 </div>
+                <a href="./assets/Utsav_Resume.pdf" target="_blank" class="btn-resume">
+                    Download Resume <i class="fas fa-arrow-right"></i>
+                </a>
             </div>
-        </section>
-        
+            <div class="footer-bottom">
+                <p>© Utsav Murarka
+                    <script>document.write(new Date().getFullYear())</script>
+                </p>
+            </div>
+        </div>
+    </footer>
 
-        <!-- Projects-->
-        <section class="page-section project-section text-center" id="projects">
-            <h1 style="color: whitesmoke; font-size: 4rem;">Projects</h1>
-        </section>
-        <section class="page-section bg-light">
-            <div class="container px-5 px-lg-5 justify-content-center align-items-center">
-                <div class="row gx-4 gx-lg-5 justify-content-center ">
-                    <div class="proj-card card text-center proj-zoom" style="width: 18rem;">
-                        <a href="https://github.com/UtsavMurarka/2048" target="_blank">
-                            <img class="card-img-top rounded-0 mt-3 proj-img" src="./assets/img/project-2048.jfif">
-                        </a>
-                        <div class="proj-body card-body">
-                          <h5 class="card-title">2048 Game Clone</h5>
-                          <p class="card-text">Cloned the 2048 game using Python. Created a GUI using Tkinter.</p>
-                        </div>
-                    </div>
-                    <div class="proj-card card text-center proj-zoom" style="width: 18rem;">
-                        <a href="https://github.com/UtsavMurarka/MXene-machine-learning" target="_blank">
-                            <img class="card-img-top rounded-0 mt-3 proj-img" src="./assets/img/project-mxene.jpg">
-                        </a>
-                        <div class="proj-body card-body">
-                          <h5 class="card-title">ML based MXene Classification</h5>
-                          <p class="card-text">Trained ML model using Scikit-learn and Tensorflow to classify MXenes into metals and non-metals.</p>
-                        </div>
-                    </div>
-                    <div class="proj-card card text-center proj-zoom" style="width: 18rem;">
-                        <a href="https://arxiv.org/abs/2004.14196v1" target="_blank">
-                            <img class="card-img-top rounded-0 mt-3 proj-img" src="./assets/img/project-nuclear.PNG">
-                        </a>
-                        <div class="proj-body card-body">
-                          <h5 class="card-title">Nuclear Binding Energy Prediction</h5>
-                          <p class="card-text">Created ML based models trained on Experimental data to predict Nuclear Binding Energies.</p>
-                        </div>
-                    </div>
-                    <div class="proj-card card proj-zoom" style="width: 35rem;">
-                        <div class="proj-body card-body">
-                          <h5 class="card-title text-center">Other Coursework based projects</h5>
-                          <p class="card-text">
-                            <ul>
-                                <li><b>Compilers:</b> Created an <a href="https://github.com/UtsavMurarka/modified-2048-game-interpreter" target="_blank">Interpreter</a> for a modified 2048 game using Lex & Yacc.</li>
-                                <li><b>Artificial Intelligence:</b> implemented a <a href="https://github.com/UtsavMurarka/15-puzzle-solver" target="_blank">15-puzzle solver</a> using A-star search algorithm in Python.</li>
-                                <li><b>Neuroscience:</b> Simulated the responses of a neuron to a steady stimulus based on the <a href="https://github.com/UtsavMurarka/neuron-simulation" target="_blank">Hodgkin-Huxley model in MATLAB.</a></li>
-                                <li><b>Physics & ML:</b> Compared the performance of various ML models with highly imbalanced data for <a href="https://github.com/UtsavMurarka/Pulsar-identification" target="_blank">identifying pulsar signals.</a></li>
-                            </ul>
-                          </p>
-                        </div>
-                    </div>
+    <!-- Video Lightbox Modal -->
+    <div id="video-modal" class="video-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Video demo player">
+        <div class="video-modal-backdrop"></div>
+        <div class="video-modal-dialog">
+            <div class="video-modal-header">
+                <span class="video-modal-title" id="video-modal-title">Feature Demo</span>
+                <div class="video-modal-actions">
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="video-modal-yt-link" id="video-modal-yt-link">
+                        Watch on YouTube <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.72rem; margin-left: 4px;"></i>
+                    </a>
+                    <button type="button" class="video-modal-close" id="video-modal-close" aria-label="Close video player">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
                 </div>
             </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-dark" id="contact">
-            <div class="justify-content-center container px-4 px-lg-5">
-                <h2 class="px-5 mb-3" style="color: whitesmoke">Contact Me</h2>
-                <hr style="color: whitesmoke">
-                <ul class="list-inline mb-5 mt-5 px-5">
-                    <li>
-                        <a class="social-link text-white mr-3" href="https://www.linkedin.com/in/utsavmurarka/" target="_blank"><i class="fab fa-linkedin"></i>&nbsp;&nbsp;&nbsp; /utsavmurarka</a>
-                    </li>
-                    <li>
-                        <a class="social-link text-white mr-3"><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp; utsavm1804@gmail.com</a>
-                    </li>
-                    <li>
-                        <a class="social-link text-white mr-3"><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp; f20170854g@alumni.bits-pilani.ac.in</a>
-                    </li>
-                </ul>
-                <hr style="color: whitesmoke">
+            <div class="video-modal-body">
+                <div class="video-aspect-ratio">
+                    <iframe id="video-modal-iframe" src="" title="Video Player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
+                </div>
             </div>
-        </footer>
-        <footer class="footer text-center bg-light" id="work">
-            <p class="text-black">Copyright &copy; Utsav Murarka <script>document.write(new Date().getFullYear())</script></p>        
-        </footer>
-        <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </div>
+    </div>
+
+    <!-- Scroll to Top -->
+    <a class="scroll-to-top" href="#page-top" aria-label="Scroll to top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
